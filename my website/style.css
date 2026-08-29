@@ -1,0 +1,29 @@
+body {
+    background-color: #061a2d;
+    font-family: fantasy; 
+    text-align: center;
+    padding-top: 100px;
+    color: #f2f4f3;
+}
+
+h1 { color: #27c7c9;
+font-size: 50px;
+}
+
+p {
+    color: #27c7c9;
+    font-size: 22px;
+}
+button {
+    background-color: #643a8c;
+    color: #f2f4f3;
+    font-size: 18px;
+    padding: 12px 25px;
+    border-radius: 10px; 
+    cursor: pointer;
+
+}
+button:hover {
+    background-color: #27c7c9;
+    color: #061a2d; 
+}
