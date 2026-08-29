@@ -1,14 +1,60 @@
 <!DOCTYPE html>
 <html> 
     <head> 
-        <title> My first website</title>
+        <title> lets miss each other</title>
         <link rel="stylesheet" href="style.css">
         </head>
 
         <body> 
-            <h1> Hello </h1>
-            <p> welcome to my first website</p>
-            <button onclick="sayhello()">click me</button>
+            <div class="bubbles">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+            <nav>
+                <h2> im losing my mind</h2>
+
+                <div class="nav-links">
+                 <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#thoughts">Thoughts</a></li>
+                    <li><a href="#about">about</a></li>
+                 </ul>
+                </div>
+            </nav>
+            <main> 
+                <section class="hero" id="home">
+                    <h1>Maybe it'll make sense later</h1>
+                    <p>i have no idea what i'm doing lol</p>    
+                    <button onclick="goToThoughts()">keep going</button>
+                </section>
+
+                <section id="thoughts">
+
+                    <section class="thought">
+                        <h2>i feel like im losing my mind</h2>
+                        <p> i dont know what to do </p>
+                    </section>
+
+                    <section class="thought">
+                        <h2>i think a little much</h2>
+                        <p> but what can i do? </p>
+                    </section>
+                </section>
+
+                <section class="thought" id="about">
+                    <h2>growing up feels weird</h2>
+                    <p> i miss yesterday </p>
+                </section>
+
+                    
+            </main>
+            <footer>
+    <p>somewhere between who i was and who i'm becoming</p>
+</footer>
             <script src="script.js"></script> 
         </body>
 </html>
